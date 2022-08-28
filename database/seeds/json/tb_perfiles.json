@@ -1,4 +1,9 @@
 [
-
+    {"id":"1", "perfil":"Trazador", "idProceso":"1", "valorMinuto":"1", "estado":"1"},
+    {"id":"2", "perfil":"Cortador", "idProceso":"2", "valorMinuto":"1", "estado":"1"},
+    {"id":"3", "perfil":"Operario de ensamble", "idProceso":"3", "valorMinuto":"1", "estado":"1"},
+    {"id":"4", "perfil":"Operario de bordado", "idProceso":"4", "valorMinuto":"1", "estado":"1"},
+    {"id":"5", "perfil":"Operario de confección", "idProceso":"5", "valorMinuto":"1", "estado":"1"},
+    {"id":"6", "perfil":"Mano de obra indeterminada", "idProceso":"6", "valorMinuto":"1", "estado":"1"}
 ]
 

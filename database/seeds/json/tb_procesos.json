@@ -1,3 +1,8 @@
 [
-
+    {"id":"1", "proceso":"Trazo", "idArea":"1", "estado":"1", "idEmpresa":"1"},
+    {"id":"2", "proceso":"Corte", "idArea":"1", "estado":"1", "idEmpresa":"1"},
+    {"id":"3", "proceso":"Ensamble", "idArea":"1", "estado":"1", "idEmpresa":"1"},
+    {"id":"4", "proceso":"Bordado", "idArea":"1", "estado":"1", "idEmpresa":"1"},
+    {"id":"5", "proceso":"Acabado", "idArea":"1", "estado":"1", "idEmpresa":"1"},
+    {"id":"6", "proceso":"Mano de obra indeterminada", "idArea":"1", "estado":"1", "idEmpresa":"1"}
 ]

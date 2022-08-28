@@ -16,14 +16,14 @@ class Tb_productoSeeder extends Seeder
         foreach ($data as $item){
             Tb_producto::create(array(
                 //'id' => $item->IdRol,
-                'producto' => $item->Producto,
-                'referencia' => $item->Referencia,
-                'foto' => $item->Foto,
-                'descripcion' => $item->Descripcion,
-                'idColeccion' => $item->IdColeccion,
-                'idArea' => $item->IdArea,
-                'estado' => $item->Estado,
-                'presentacion' => $item->Presentacion
+                'producto' => $item->producto,
+                'referencia' => $item->referencia,
+                'foto' => $item->foto,
+                'descripcion' => $item->descripcion,
+                'idColeccion' => $item->idColeccion,
+                'idArea' => $item->idArea,
+                'estado' => $item->estado,
+                'presentacion' => $item->presentacion
             ));
             }
         /*

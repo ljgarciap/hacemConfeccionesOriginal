@@ -1,3 +1,17 @@
 [
-
+    {"id":"1","maquinaria":"Máquina Plana Industrial 1","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"2","maquinaria":"Máquina Plana Industrial 2","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"3","maquinaria":"Máquina Plana Industrial 3","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"4","maquinaria":"Máquina Plana Industrial 4","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"5","maquinaria":"Máquina Plana Industrial 5","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"6","maquinaria":"Máquina Plana Industrial 6","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"7","maquinaria":"Máquina Plana Industrial 7","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"8","maquinaria":"Máquina Plana Industrial 8","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"9","maquinaria":"Máquina Plana Industrial 9","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"10","maquinaria":"Máquina Plana Industrial 10","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"11","maquinaria":"Máquina Plana Industrial 11","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"12","maquinaria":"Máquina Plana Industrial 12","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"13","maquinaria":"Máquina Plana Industrial 13","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"14","maquinaria":"Máquina Plana Industrial 14","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"},
+    {"id":"15","maquinaria":"Máquina Plana Industrial 15","valor":"1902810","tiempoDeVidaUtil":"10","depreciacionAnual":"190281","depreciacionMensual":"15857","fecha":"2022-08-01","estado":"1","idEmpresa":"1"}
 ]

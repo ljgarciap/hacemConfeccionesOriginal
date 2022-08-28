@@ -1,3 +1,16 @@
 [
-
+    {"id":"1","idMateriaPrima":"12","cantidad":"2.35","precio":"21000.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"2","idMateriaPrima":"11","cantidad":"1.30","precio":"6000.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"3","idMateriaPrima":"10","cantidad":"1.00","precio":"2000.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"4","idMateriaPrima":"9","cantidad":"1.70","precio":"500.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"5","idMateriaPrima":"8","cantidad":"195.64","precio":"2.64","tipoDeCosto":"Indirecto","idHoja":"1"},
+    {"id":"6","idMateriaPrima":"7","cantidad":"0.25","precio":"5800.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"7","idMateriaPrima":"6","cantidad":"1.00","precio":"10.00","tipoDeCosto":"Indirecto","idHoja":"1"},
+    {"id":"8","idMateriaPrima":"5","cantidad":"1.00","precio":"10.00","tipoDeCosto":"Indirecto","idHoja":"1"},
+    {"id":"9","idMateriaPrima":"4","cantidad":"1.00","precio":"150.00","tipoDeCosto":"Indirecto","idHoja":"1"},
+    {"id":"10","idMateriaPrima":"3","cantidad":"0.25","precio":"6000.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"11","idMateriaPrima":"2","cantidad":"2.00","precio":"500.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"12","idMateriaPrima":"1","cantidad":"2.00","precio":"80.00","tipoDeCosto":"Directo","idHoja":"1"},
+    {"id":"13","idMateriaPrima":"13","cantidad":"1.00","precio":"24970.00","tipoDeCosto":"Directo","idHoja":"2"},
+    {"id":"14","idMateriaPrima":"14","cantidad":"1.00","precio":"9200.00","tipoDeCosto":"Directo","idHoja":"3"}
 ]

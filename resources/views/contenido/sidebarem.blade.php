@@ -36,7 +36,7 @@
                 <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-basket"></i> Productos</a>
                 <ul class="nav-dropdown-items">
                     <li @click="menu=7" class="nav-item">
-                        <a class="nav-link" href="#"><i class="icon-wallet"></i> Colecciones</a>
+                        <a class="nav-link" href="#"><i class="icon-wallet"></i> Catálogos</a>
                     </li>
                     <li @click="menu=8" class="nav-item">
                         <a class="nav-link" href="#"><i class="icon-wallet"></i> Productos</a>

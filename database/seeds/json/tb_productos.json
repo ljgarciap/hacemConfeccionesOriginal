@@ -1,3 +1,5 @@
 [
-
+    {"id":"1","producto":"Chaqueta deportiva","referencia":"CHA3405","foto":"chdep.jpeg","descripcion":"Chaqueta deportiva","idColeccion":"1","idArea":"1","presentacion":"4","estado":"1"},
+    {"id":"1","producto":"Vestido Infantil","referencia":"VIN3405","foto":"vestinf.jpeg","descripcion":"Vestido Infantil","idColeccion":"1","idArea":"1","presentacion":"4","estado":"1"},
+    {"id":"1","producto":"Blusa de tiras","referencia":"BTR3405","foto":"bltir.jpeg","descripcion":"Blusa de tiras","idColeccion":"1","idArea":"1","presentacion":"4","estado":"1"}
 ]

@@ -1,3 +1,9 @@
 [
-
+    {"id":"1","idPerfil":"1","tiempo":"1.00","precio":"1234","tipoPago":"5","idHoja":"1"},
+    {"id":"2","idPerfil":"2","tiempo":"1.00","precio":"2806","tipoPago":"5","idHoja":"1"},
+    {"id":"3","idPerfil":"3","tiempo":"1.00","precio":"18239","tipoPago":"5","idHoja":"1"},
+    {"id":"4","idPerfil":"4","tiempo":"1.00","precio":"9540","tipoPago":"5","idHoja":"1"},
+    {"id":"5","idPerfil":"5","tiempo":"1.00","precio":"280","tipoPago":"5","idHoja":"1"},
+    {"id":"6","idPerfil":"6","tiempo":"1.00","precio":"10200","tipoPago":"2","idHoja":"2"},
+    {"id":"7","idPerfil":"6","tiempo":"1.00","precio":"5400","tipoPago":"2","idHoja":"3"}
 ]

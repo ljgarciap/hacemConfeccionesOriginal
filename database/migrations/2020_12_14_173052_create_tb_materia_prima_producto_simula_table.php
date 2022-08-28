@@ -17,7 +17,7 @@ class CreateTbMateriaPrimaProductoSimulaTable extends Migration
             $table->id();
             $table->foreignId('idMateriaPrima')->constrained('tb_gestion_materia_prima');
             $table->float('cantidad');
-            $table->integer('precio')->unsigned();
+            $table->float('precio');
             $table->string('tipoDeCosto', 255);
             $table->foreignId('idProducto')->constrained('tb_producto');
             $table->foreignId('idSimulacion')->constrained('tb_simulacion');

@@ -16,9 +16,9 @@ class Tb_hoja_de_costoSeeder extends Seeder
         foreach ($data as $item){
             Tb_hoja_de_costo::create(array(
                 //'id' => $item->IdRol,
-                'idProducto' => $item->IdProducto,
-                'capacidadMensual' => $item->CapacidadMensual,
-                'estado' => $item->Estado
+                'idProducto' => $item->idProducto,
+                'capacidadMensual' => $item->capacidadMensual,
+                'estado' => $item->estado
             ));
             }
         /*

@@ -41,3 +41,7 @@ uno para traer los datos estáticos y calcular sobre ellos y otro que calcule en
 Creación de nueva rama para implementación multiplataforma.
 Inicio de modificaciones en estructuras base para tener en cuenta valor empresa.
 Agrego vista de empresa individual.
+
+## 29-08-22
+
+Carga de datos de prueba

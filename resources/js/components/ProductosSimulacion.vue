@@ -24,7 +24,7 @@
                         <th>Referencia</th>
                         <th>Descripción</th>
                         <th>Unidades</th>
-                        <th>Tiempo par</th>
+                        <th>Tiempo producción</th>
                     </tr>
                 </thead>
                 <tbody>

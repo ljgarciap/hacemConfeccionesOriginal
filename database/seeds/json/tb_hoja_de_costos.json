@@ -1,5 +1,5 @@
 [
     {"id":"1", "idProducto":"1", "capacidadMensual":"500", "estado":"1"},
-    {"id":"2", "idProducto":"2", "capacidadMensual":"500", "estado":"1"},
-    {"id":"3", "idProducto":"3", "capacidadMensual":"500", "estado":"1"}
+    {"id":"2", "idProducto":"2", "capacidadMensual":"1500", "estado":"1"},
+    {"id":"3", "idProducto":"3", "capacidadMensual":"2000", "estado":"1"}
 ]

@@ -19,7 +19,7 @@
                 <thead>
                     <tr>
                         <th>Opciones</th>
-                        <th>id</th>
+                        <th>Id</th>
                         <th>Producto</th>
                         <th>Referencia</th>
                         <th>Descripción</th>

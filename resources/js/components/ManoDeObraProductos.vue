@@ -42,8 +42,8 @@
                                         <td v-text="manodeobraproducto.proceso"></td>
                                         <td v-if="manodeobraproducto.tipoPago==1" v-text="manodeobraproducto.tiempo"></td>
                                         <td v-if="manodeobraproducto.tipoPago>1"><span class="badge badge-secondary">Por producto</span></td>
-                                        <td v-text="manodeobraproducto.precio"></td>
-                                        <td v-text="manodeobraproducto.subtotal"></td>
+                                        <td>{{manodeobraproducto.precio | currency_1}}</td>
+                                        <td>{{manodeobraproducto.subtotal | currency_1}}</td>
                                         <td v-if="manodeobraproducto.tipoPago==1"><span class="badge badge-success">Sueldo Fijo</span></td>
                                         <td v-if="manodeobraproducto.tipoPago==2"><span class="badge badge-danger">Destajo sin provision</span></td>
                                         <td v-if="manodeobraproducto.tipoPago==3"><span class="badge badge-warning">Destajo + liquidación</span></td>

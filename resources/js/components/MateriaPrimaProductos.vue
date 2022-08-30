@@ -38,8 +38,8 @@
                                         <td v-text="materiaprimaproducto.gestionMateria"></td>
                                         <td v-text="materiaprimaproducto.unidadBase"></td>
                                         <td v-text="materiaprimaproducto.cantidad"></td>
-                                        <td v-text="materiaprimaproducto.precio"></td>
-                                        <td v-text="materiaprimaproducto.subtotal"></td>
+                                        <td>{{materiaprimaproducto.precio | currency_1}}</td>
+                                        <td>{{materiaprimaproducto.subtotal | currency_1}}</td>
                                         <td>
                                             <div v-if="materiaprimaproducto.tipoDeCosto=='Directo'">
                                             <span class="badge badge-success">Directo</span>

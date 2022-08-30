@@ -30,6 +30,15 @@ Vue.use(VueCurrencyFilter,[
       symbolPosition: 'front',
       symbolSpacing: true
     },
+    {
+        name: 'currency_1',
+        symbol : '$',
+        thousandsSeparator: '.',
+        fractionCount: 2,
+        fractionSeparator: ',',
+        symbolPosition: 'front',
+        symbolSpacing: true
+      },
     { // default name 'currency_2'
       name: 'currency_2',
       symbol: '',
@@ -41,6 +50,7 @@ Vue.use(VueCurrencyFilter,[
       //avoidEmptyDecimals: '--'
     }
     ]);
+
 
     Vue.filter('redondeo', function (value) {
         // devuelve el valor procesado

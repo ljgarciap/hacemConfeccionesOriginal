@@ -27,7 +27,7 @@
                                         <!--<td><span class="badge badge-success">Maquinaria</span></td>-->
                                         <td>0</td>
                                         <td>Depreciación mensual total</td>
-                                        <td>{{this.maquinaria}}</td>
+                                        <td>{{this.maquinaria | currency_1}}</td>
                                     </tr>
                                     <tr v-for="concepto in arrayConceptos" :key="concepto.id">
                                         <!--<td>
@@ -49,7 +49,7 @@
                                         </td>-->
                                         <td v-text="concepto.id"></td>
                                         <td v-text="concepto.concepto"></td>
-                                        <td v-text="concepto.valor"></td>
+                                        <td>{{concepto.valor | currency_1}}</td>
                                     </tr>
                                 </tbody>
                             </table>

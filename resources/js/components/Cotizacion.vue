@@ -43,7 +43,7 @@
                                         <th>Consecutivo</th>
                                         <th>Fecha</th>
                                         <th>Condición Entrega</th>
-                                        <th>Vigencia</th>
+                                        <th>Vigencia (número de dias)</th>
                                         <th>Cliente</th>
                                     </tr>
                                 </thead>

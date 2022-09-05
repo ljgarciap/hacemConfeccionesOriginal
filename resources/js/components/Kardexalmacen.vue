@@ -276,8 +276,8 @@
                                         <!--Revisar-->
                                         <label v-if="flag==1" class="col-md-3 form-control-label" for="text-input">Precio</label>
                                         <div v-if="flag==1" class="col-md-9">
-                                            <input type="number" v-model="precio" class="form-control" placeholder="Precio">
-                                            <span class="help-block">(*) Ingrese el Precio</span>
+                                            <input type="number" v-model="precio" class="form-control" placeholder="Precio por unidad">
+                                            <span class="help-block">(*) Ingrese el Precio por unidad</span>
                                         </div>
                                         <label v-if="flag==2" class="col-md-3 form-control-label" for="text-input">Precio</label>
                                         <div v-if="flag==2" class="col-md-9"><!-- Orden->se trae de kardex promedio arrayMateriaOrden-->

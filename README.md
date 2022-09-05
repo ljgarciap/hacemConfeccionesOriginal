@@ -45,3 +45,7 @@ Agrego vista de empresa individual.
 ## 29-08-22
 
 Carga de datos de prueba
+
+## 05-09-22
+
+Prueba modificaciones

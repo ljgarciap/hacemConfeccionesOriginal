@@ -56,15 +56,15 @@ class UserSeeder extends Seeder
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Alex E',
-            'email' => 'ealexv@misena.edu.co',
-            'password' => bcrypt('Alex'),
+            'name' => 'Silvia Proditexco',
+            'email' => 'silviagg@proditexco.com',
+            'password' => bcrypt('Proditexco'),
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Alex U',
-            'email' => 'uealexv@misena.edu.co',
-            'password' => bcrypt('Alex'),
+            'name' => 'Gerencia Proditexco',
+            'email' => 'gerencia@proditexco.com',
+            'password' => bcrypt('Proditexco'),
         ]);
 
     }

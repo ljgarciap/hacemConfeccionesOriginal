@@ -23,7 +23,7 @@ class Tb_procesoController extends Controller
          }
         //cambios multiempresa
 
-        if(!$request->ajax()) return redirect('/');
+        //if(!$request->ajax()) return redirect('/');
         $buscar= $request->buscar;
         $criterio= $request->criterio;
 

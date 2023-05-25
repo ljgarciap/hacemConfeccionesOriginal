@@ -89,7 +89,8 @@ class Tb_procesoController extends Controller
         if(!$request->ajax()) return redirect('/');
         $tb_proceso=new Tb_proceso();
         $tb_proceso->proceso=$request->proceso;
-        $tb_proceso->idArea=$request->idArea;
+        //$tb_proceso->idArea=$request->idArea;
+        $tb_proceso->idArea=$idEmpresa;
         $tb_proceso->idEmpresa=$idEmpresa;
         $tb_proceso->save();
     }

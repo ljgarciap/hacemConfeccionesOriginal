@@ -116,7 +116,10 @@ class Tb_simulacionController extends Controller
         $tb_concepto_cif_simula0->idSimulacion=$idSimulacion;
         $tb_concepto_cif_simula0->save();
 
-        $conceptoscif = DB::table('tb_concepto_cif')->where('tb_concepto_cif.estado', '=', '1')->get();
+        $conceptoscif = DB::table('tb_concepto_cif')
+        ->where('tb_concepto_cif.estado', '=', '1')
+        ->where('tb_concepto_cif.idEmpresa','=',$idEmpresa)
+        ->get();
         foreach ($conceptoscif as $conceptocif) {
             $concepto=$conceptocif->concepto;
             $valor=$conceptocif->valor;
@@ -614,5 +617,29 @@ return [
 ];
 }
 //------------------------------------------------------------------------------------------------------//
+
+public function testCif(){
+
+    $idEmpresa=16;
+    $acumValor=0;
+    $conceptos="-";
+    $conceptoscif = DB::table('tb_concepto_cif')
+    ->where('tb_concepto_cif.estado', '=', '1')
+    ->where('tb_concepto_cif.idEmpresa','=',$idEmpresa)
+    ->get();
+    foreach ($conceptoscif as $conceptocif) {
+        $valor=$conceptocif->valor;
+        $id=$conceptocif->id;
+        $estado=$conceptocif->estado;
+        $idEmpresa=$conceptocif->idEmpresa;
+        $concepto=$conceptocif->concepto;
+        $acumValor=$acumValor+$valor;
+        $conceptos=$conceptos."Id: ".$id." -Estado: ".$estado." -Valor: ".$valor." -Concepto: ".$concepto." -idEmpresa: ".$idEmpresa;
+    }
+    return [
+        'cifEmpresa' => $acumValor,
+        'Conceptos' => $conceptos
+        ];
+}
 
 }

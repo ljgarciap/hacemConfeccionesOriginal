@@ -61,6 +61,25 @@ class Tb_areaController extends Controller
         return ['areas' => $areas];
     }
 
+    public function selectthisArea(){
+        //cambios multiempresa
+        foreach (Auth::user()->empresas as $empresa){
+            $idEmpresa=$empresa['id'];
+         }
+        //cambios multiempresa
+
+        $areas = Tb_area::where('estado','=','1')
+        ->where('tb_area.idEmpresa','=',$idEmpresa)
+        ->select('tb_area.id as area')
+        ->orderBy('tb_area.id','asc')->get();
+
+        foreach ($areas as $areauno){
+            $areasalida=$areauno['area'];
+         }
+
+        return ['areasalida' => $areasalida];
+    }
+
     public function store(Request $request)
     {
         //cambios multiempresa

@@ -64,6 +64,7 @@ Route::group(['middleware' => ['guest']], function () {
         Route::put("/area/deactivate", "Tb_areaController@deactivate");
         Route::put("/area/activate", "Tb_areaController@activate");
         Route::get("/area/selectArea", "Tb_areaController@selectArea");
+        Route::get("/area/selectthisArea", "Tb_areaController@selectthisArea");
 
         Route::get("/proceso", "Tb_procesoController@index");
         Route::post("/proceso/store", "Tb_procesoController@store");

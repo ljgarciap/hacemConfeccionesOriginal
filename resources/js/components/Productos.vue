@@ -245,7 +245,8 @@
                 coleccion:'',
                 referencia:'',
                 arrayColeccion:[],
-                idArea:1,
+                idArea:'',
+                presentacion:4,
                 area:'',
                 arrayArea:[],
                 modal : 0,
@@ -328,6 +329,18 @@
                 axios.get(url).then(function (response) {
                 var respuesta=response.data;
                 me.arrayArea=respuesta.areas;
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log(error);
+                })
+            },
+            selectthisArea(){
+                let me=this;
+                var url='/area/selectthisArea';
+                axios.get(url).then(function (response) {
+                var respuesta=response.data;
+                me.idArea=respuesta.areasalida;
                 })
                 .catch(function (error) {
                     // handle error
@@ -536,7 +549,7 @@
                             this.tituloModal='Crear nuevo producto';
                             this.tipoAccion= 1;
                             this.idColeccion= 1;
-                            this.idArea= 1;
+                            this.idArea= this.idArea;
                             break;
                         }
                         case 'actualizar':{
@@ -550,7 +563,7 @@
                             this.foto=data['foto'];
                             this.descripcion=data['descripcion'];
                             this.idColeccion=data['idColeccion']; // añadido para alimentar el select
-                            this.idArea=data['idArea']; // añadido para alimentar el select
+                            this.idArea=this.idArea; // añadido para alimentar el select
                             break;
                         }
                     }
@@ -558,7 +571,7 @@
 
             }
             this.selectColeccion();
-            this.selectArea();
+            this.selectthisArea();
             },
             //funciones para uso del lightbox
             showLightbox(fotoCarga) {
@@ -576,6 +589,8 @@
         },
         mounted() {
             this.listarProducto(1,this.buscar,this.criterio);
+            this.selectColeccion();
+            this.selectthisArea();
         }
     }
 </script>

@@ -37,7 +37,7 @@
                                 <thead>
                                     <tr>
                                         <th>Detalle</th>
-                                        <th>Precio de venta</th>   
+                                        <th>Precio de venta</th>
                                         <th>Punto de equilibrio</th>
                                     </tr>
                                 </thead>
@@ -84,7 +84,7 @@
                                         <div class="col-md-9">
                                             <select class="form-control" v-model="idProducto" @change='onChange($event)'>
                                                 <option value="0" disabled>Seleccione un producto</option>
-                                                <option v-for="posible in arrayPosibles" :key="posible.id" :value="posible.id" v-text="posible.detalle"></option>
+                                                <option v-for="posible in arrayPosibles" :key="posible.idProducto" :value="posible.idProducto" v-text="posible.producto"></option>
                                             </select>
                                         </div>
                                     </div>
@@ -206,6 +206,7 @@
                 utilidadneta:0,
                 ingresostotales:0,
                 arrayPosibles : [],
+                arrayPrecios : [],
                 errorVinculacion : 0,
                 errorMensaje : [],
                 pagination : {
@@ -254,6 +255,7 @@
                 this.identificadorHoja=event.target.value;
                 let me=this;
                 //var url='/hojadecosto/unitariogen/?identificador='+this.identificadorHoja;
+                //
                 var url='/simulaciones/unitariogen/?identificador='+this.identificadorHoja;
                 axios.get(url).then(function (response) {
                 var respuesta=response.data;
@@ -270,6 +272,7 @@
                 console.log(me.valorcif);
                 console.log(me.valormatprima);
                 console.log(me.valormanobra);
+                console.log(me.preciodeventa);
                 })
                 .catch(function (error) {
                     // handle error
@@ -339,18 +342,19 @@
                     // handle error
                     console.log(error);
                 })
-            },       
+            },
             cambiarPagina(page){
                 let me = this;
                 //Actualiza la pagina actual
                 me.pagination.current_page = page;
                 //envia peticion para ver los valores asociados a esa pagina
                 me.listarPrecios(page);
-            },    
+            },
             listarPosibles(id){
                 let me=this;
                 //var url='/relaf/posibles?id=' + this.identificador;
-                var url='/simulaciones/posibles?id=' + this.identificador;
+                //var url='/simulaciones/posibles?id=' + this.identificador;
+                var url='/relaf/posiblesPrecios';
                 // Make a request for a user with a given ID
                 axios.get(url).then(function (response) {
                     // handle success

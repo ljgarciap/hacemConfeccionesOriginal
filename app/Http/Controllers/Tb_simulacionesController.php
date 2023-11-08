@@ -564,7 +564,7 @@ class Tb_simulacionesController extends Controller
         //if(!$request->ajax()) return redirect('/');
         $idProducto=$request->identificador;
 
-        $puntos = Tb_precios_venta::where('id','=',$idProducto)->orderBy('id','asc')->get();
+        $puntos = Tb_precios_venta::where('idProducto','=',$idProducto)->orderBy('id','asc')->get();
 
         foreach($puntos as $totalg){
 

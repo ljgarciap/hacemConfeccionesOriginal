@@ -135,8 +135,14 @@ class Tb_simulacionesController extends Controller
 
         $detalle=$producto."-".$hoy;
 
+        $idproductos = Tb_precios_venta::where('tb_precios_venta.idEmpresa','=',$idEmpresa)
+        ->where('tb_precios_venta.idProducto','=',$idProducto)->select('tb_precios_venta.id')->get();
+        foreach($idproductos as $product){
+            $idproducto = $product->id;
+        }
+
         $tb_puntos_equilibrio=new Tb_puntos_equilibrio();
-        $tb_puntos_equilibrio->idProducto=$idProducto;
+        $tb_puntos_equilibrio->idProducto=$idproducto;
         $tb_puntos_equilibrio->preciodeventa=$preciodeventa;
         $tb_puntos_equilibrio->costosfijos=$costosfijos;
         $tb_puntos_equilibrio->gastosfijos=$gastosfijos;

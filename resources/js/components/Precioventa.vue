@@ -167,6 +167,7 @@
                 valormatprima:0,
                 valormanobra:0,
                 costo:0,
+                cifunitario:0,
                 porcentaje:0,
                 costosfijos:0,
                 materiaprima:0,
@@ -182,6 +183,7 @@
                 utilidadneta:0,
                 ingresostotales:0,
                 arrayPosibles : [],
+                arrayPrecios : [],
                 errorVinculacion : 0,
                 errorMensaje : [],
                 pagination : {
